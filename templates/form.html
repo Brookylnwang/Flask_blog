@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Please Sign In</title>
+</head>
+<body>
+  {% if message %}
+  <p style="color:red">{{ message }}</p>
+  {% endif %}
+  <form action="/">
+    <p><button type="submit">返回</button></p>
+  </form>
+</body>
+</html>
